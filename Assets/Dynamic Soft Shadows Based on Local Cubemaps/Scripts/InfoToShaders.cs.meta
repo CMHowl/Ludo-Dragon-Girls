@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 280a17ea1f392a24dac6c3dcd2830d7d
+timeCreated: 1423167569
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - ctChessboardMat: {fileID: 2100000, guid: c1ba0b6e2309bd94998e9d1027f59b1b, type: 2}
+  - shadowsWallMaterial: {fileID: 2100000, guid: 648db324b332da443b3114d4511b0151,
+      type: 2}
+  - shadowsFloorAndRoofMaterial: {fileID: 2100000, guid: cffee14cd82fca74eb8eaa40feb31a4d,
+      type: 2}
+  - shadowsFireplaceMaterial: {fileID: 2100000, guid: 364f207b9002ea741a2d49e050dbb435,
+      type: 2}
+  - shadowsDoorMaterial: {fileID: 2100000, guid: 7395c25f0907c274fbb20d6f00735c14,
+      type: 2}
+  - boundingBox: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

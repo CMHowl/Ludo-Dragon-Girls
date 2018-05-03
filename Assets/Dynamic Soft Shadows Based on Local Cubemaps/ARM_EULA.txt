@@ -1,0 +1,66 @@
+END USER LICENCE AGREEMENT FOR THE CHESS ROOM DEMONSTRATION SOFTWARE.
+
+THIS END USER LICENCE AGREEMENT (“LICENCE”) IS A LEGAL AGREEMENT BETWEEN YOU (EITHER A SINGLE INDIVIDUAL, OR SINGLE LEGAL ENTITY) AND ARM LIMITED ("ARM") FOR THE USE OF THE DELIVERABLES ACCOMPANYING THIS LICENCE. ARM IS ONLY WILLING TO LICENSE THE DELIVERABLES TO YOU ON CONDITION THAT YOU ACCEPT ALL OF THE TERMS IN THIS LICENCE. BY CLICKING “I AGREE” OR BY INSTALLING OR OTHERWISE USING OR COPYING THE DEMONSTRATION SOFTWARE YOU INDICATE THAT YOU AGREE TO BE BOUND BY ALL THE TERMS OF THIS LICENCE. IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENCE, ARM IS UNWILLING TO LICENSE THE DELIVERABLES TO YOU AND YOU MAY NOT INSTALL, USE OR COPY THE DELIVERABLES.
+
+1.  DEFINITIONS.
+
+“Confidential Information” means: (i) the Deliverables and derivatives thereof (including any translation, modification, compilation, abridgement or other form in which the Demonstration Software has been recast, transformed or adapted) and any trade secrets relating to the Demonstration Software; (ii) any information designated in writing by either party, by appropriate legend, as confidential; (iii) any information which if first disclosed orally, is identified as confidential at the time of disclosure and is thereafter reduced to writing for confirmation and sent to the other party within thirty (30) days after its oral disclosure and designated, by appropriate legend, as confidential; (iv) the Results; and (v) the terms and conditions of this Licence. 
+
+“Deliverables” means: (i) the Demonstration Software; and (ii) all electronic, printed or online supporting documentation supplied with the Demonstration Software. 
+
+“Demonstration Software” means the source code of ARM’s demonstration software known as “Chess Room” expressly.
+
+“Intellectual Property” means any patents, patent applications, trade marks, service marks, registered designs, applications for any of the foregoing, copyright, unregistered design right and any other similar protected rights in any country to the extent recognised by any relevant jurisdiction as intellectual property, trade secrets and know-how. 
+
+“Purpose” means internal use of the Demonstration Software by you for non-commercial/educational purposes as a learning resource solely to implement ARM’s patented shadow technique in your software applications. Except as expressly permitted by the Purpose, you are not permitted to: (i) integrate or otherwise incorporate the Demonstration Software into your software applications; (ii) re-use any of the art assets included in the Demonstration Software in your software applications. 
+
+“Results” means any data resulting from your use of the Demonstration Software and all direct and indirect derivatives thereof.
+
+“Term” means the period of one (1) year commencing on the date that you install the Demonstration Software. 
+
+“Use” means in respect of the object code of the Demonstration Software, the use of (including copying the object code of the Demonstration Software to the extent that such copying is incidental to such use, including installation, backup and execution) the object code of the Demonstration Software or any part thereof. Use shall specifically exclude: (i) the translation, adaptation, arrangement or other alteration of the object code of the Firmware except as allowed by local legislation implementing Article 6 of the EC Directive on the legal protection of computer programs (91/250/EEC) and then only to the extent necessary to achieve interoperability of an independently created program with other programs; and (ii) the adapting or reverse compiling of the object code of the Demonstration Software for the purpose of error correction.
+
+2. LICENCE GRANT.
+ARM hereby grants to you, for the Term, a non-transferable, non-exclusive, royalty-free, worldwide licence under ARM’s or its licensors’ Intellectual Property to: (i) Use, copy and modify the Demonstration Software; and (ii) use and copy any supporting documentation; solely for the Purpose;.
+
+3. RESTRICTIONS ON USE OF THE DEMONSTRATION SOFTWARE.
+
+SUBLICENSING AND DISTRIBUTION: No right is granted to you to sublicense the rights granted to you under this Licence. No right is granted to you under this Licence to sell, supply or distribute any products which have taken into use or which embody any of the Deliverables or any of the Intellectual Property embodied therein.
+
+USE: You shall not use any of ARM’s Confidential Information made available to you under this Licence except as expressly authorized by this Licence. Without limiting the generality of the foregoing, You shall not use ARM’s Confidential Information: (i) for determining if any features, functions or processes provided by the Demonstration Software or disclosed by the ARM Confidential Information are covered by any patents or patent applications owned by you or a third party; or (ii)  for developing technology or products which avoid  any of ARM’s Intellectual Property licensed hereunder; or (iii) as a reference for modifying existing patents or patent applications or creating any continuation, continuation in part, or extension of existing patents or patent applications; or (iv) for generating data for publication or disclosure to third parties, which compares the performance or functionality of the Demonstration Software with any other products created by you or a third party, without obtaining ARM’s prior written consent.
+
+COPYING: You may make one copy of the delivered Demonstration Software media for backup or archival purposes.
+
+RESTRICTIONS ON TRANSFER OF LICENSED RIGHTS: The rights granted to you under this Licence may not be assigned, sublicensed or otherwise transferred by you to any third party without the prior written consent of ARM. An assignment shall be deemed to include, without limitation; (i) any transaction or series of transactions whereby a third party acquires, directly or indirectly, the power to control the management and policies of you, whether through the acquisition of voting securities, by contract or otherwise; or (ii) the sale of more than fifty percent (50%) of your assets whether in a single transaction or series of transactions.  You shall not rent or lease the Demonstration Software, or except as expressly provided above, share them with third parties.
+
+TITLE AND RESERVATION OF RIGHTS: You acquire no rights to the Deliverables other than as expressly provided by this Licence. The Deliverables are licensed not sold. ARM does not transfer title to the Deliverables to you. In no event shall the licences granted in Clause 2 be construed as granting you expressly or by implication, estoppel or otherwise, licences to any ARM technology other than the Deliverables. You shall not remove from the Demonstration Software any copyright notice or other notice (whether ARM’s or its licensor’s), and you shall ensure that any such notice is reproduced in any copies of the whole or any part of the Demonstration Software made by you. You hereby undertake to take all commercially reasonable precautions to protect ARM’s Intellectual Property rights and licensed rights in the Deliverables under this Licence. 
+
+4. NO SUPPORT.
+ARM has no obligation to provide support to you or to update any of the Demonstration Software, but ARM may do so at ARM’s sole discretion. If ARM chooses to provide support to you, it will only be in respect of the Demonstration Software as delivered and not any modifications thereto.
+
+5. NO WARRANTIES.
+YOU AGREE THAT THE DELIVERABLES ARE LICENSED “AS IS”, AND THAT ARM AND ANY THIRD PARTY LICENSOR EXPRESSLY DISCLAIMS ALL REPRESENTATIONS, WARRANTIES, CONDITIONS OR OTHER TERMS, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, TITLE, SATISFACTORY QUALITY, MERCHANTIBILITY, AND FITNESS FOR A PARTICULAR PURPOSE.
+
+YOU EXPRESSLY ASSUME ALL LIABILITIES AND RISKS, FOR USE OR OPERATION OF ANY APPLICATION PROGRAMS YOU CREATE WITH THE DELIVERABLES, AND YOU ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+6. LIMITATION OF LIABILITY.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ARM OR ITS LICENSORS BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING LOSS OF PROFITS) WHETHER SUCH DAMAGES ARE ALLEGED AS A RESULT OF TORTIOUS CONDUCT OR BREACH OF CONTRACT OR OTHERWISE EVEN IF ARM OR ANY OF ARM’S LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ 
+Nothing in this clause 6 shall operate to exclude liability for: (i) death or personal injury resulting from either party’s negligence; or (ii) fraud; and because some jurisdictions do not permit the exclusion or limitation of liability for consequential or incidental damages the above limitation relating to liability for consequential damages may not apply to you.
+
+NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED IN THIS LICENCE, THE MAXIMUM LIABILITY OF ARM TO YOU IN AGGREGATE FOR ALL CLAIMS MADE AGAINST ARM IN CONTRACT TORT OR OTHERWISE UNDER OR IN CONNECTION WITH THE SUBJECT MATTER OF THIS LICENCE SHALL NOT EXCEED THE GREATER OF; (i) THE TOTAL OF SUMS PAID BY YOU TO ARM (IF ANY) FOR THIS LICENCE; AND (ii) US$5.00. THE EXISTENCE OF MORE THAN ONE CLAIM WILL NOT ENLARGE OR EXTEND THE LIMIT.
+
+7.  CONFIDENTIALITY.
+You agree to maintain all Confidential Information and the Results in confidence and apply security measures no less stringent than the measures which you apply to protect your own like information, but not less than a reasonable degree of care, to prevent their  unauthorised disclosure and use. Subject to any restrictions imposed by applicable law, the period of confidentiality shall be indefinite.
+8. U.S. GOVERNMENT END USERS.
+The Deliverables provided under this Licence consists solely of commercial items. You shall be responsible for ensuring that any Deliverables provided to the US Government in accordance with the terms of this Licence is provided with the rights and subject to restrictions described elsewhere herein.
+
+9. TERM AND TERMINATION.
+Unless earlier terminated by you or by ARM this Licence shall remain in force until the expiry of the Term. Without prejudice to any of its other rights if you are in breach of any of the terms and conditions of this Licence then ARM may terminate this Licence immediately upon giving written notice to you. You may terminate this Licence at any time. Upon termination of this Licence by you or by ARM you shall stop using the Deliverables and destroy all copies of the Deliverables in your possession together with all documentation and related materials. The provisions of Clauses 1, 5, 6, 7, 8, 9 and 10 shall survive termination of this Licence.
+
+10. GENERAL.
+This Licence is governed by English Law. Except where ARM agrees otherwise in a written contract signed by you and ARM, this is the only agreement between you and ARM relating to the Deliverables and it may only be modified by written agreement between you and ARM. Except as expressly agreed in writing, this Licence may not be modified by purchase orders, advertising or other representation by any person. If any clause in this Licence is held by a court of law to be illegal or unenforceable the remaining provisions of this Licence shall not be affected thereby. The failure by ARM to enforce any of the provisions of this Licence, unless waived in writing, shall not constitute a waiver of ARM's rights to enforce such provision or any other provision of this Licence in the future.
+
+ARM and you are independent parties. Neither you (nor your employees, consultants, contractors or agents, as applicable), are agents, employees or joint venturers of the other party, nor do they have the authority to bind the other party by contract or otherwise to any obligation. Neither party will represent to the contrary, either expressly, implicitly, by appearance or otherwise.
+
+The Deliverables provided under this Licence is subject to U.K., European Union, and U.S. export control laws and regulations, including the U.S. Export Administration Act and its associated regulations (hereafter collectively referred to as “Export Regulations”).  You agree to comply fully with all such Export Regulations and you agree that you shall not, either directly or indirectly, export in breach of the Export Regulations, any Deliverables received under this Licence, nor any direct products thereof; (i) to any country, company or person subject to export restrictions or sanctions under the Export Regulations; or (ii) for any prohibited end use, which at the time of export requires an export license or other governmental approval, without first obtaining such license or approval.

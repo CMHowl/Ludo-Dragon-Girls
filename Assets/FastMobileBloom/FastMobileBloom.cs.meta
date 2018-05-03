@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4cb4d9bd051a71f48a18edd27bce7c19
+timeCreated: 1519231515
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fastBloomMaterial: {fileID: 2100000, guid: 221340b8b5ad10940ba1646f87e3770c, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1291 @@
+fileFormatVersion: 2
+guid: 64894164e54de704ca84ecc268677b21
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ahoge
+    100002: body
+    100004: hat_fukuoka
+    100006: head
+    100008: joint3
+    100010: L_arm
+    100012: L_arm2
+    100014: L_foot
+    100016: L_hand
+    100018: L_leg
+    100020: L_leg2
+    100022: PQ_body
+    100024: PQ_earphone
+    100026: PQ_face
+    100028: PQ_hair
+    100030: PQ_hair_top
+    100032: PQ_leg
+    100034: R_arm
+    100036: R_arm2
+    100038: R_foot
+    100040: R_hand
+    100042: R_leg
+    100044: R_leg2
+    100046: SD_QUERY_04
+    100048: //RootNode
+    100050: SD_QUERY_04_Reference
+    100052: upper
+    400000: ahoge
+    400002: body
+    400004: hat_fukuoka
+    400006: head
+    400008: joint3
+    400010: L_arm
+    400012: L_arm2
+    400014: L_foot
+    400016: L_hand
+    400018: L_leg
+    400020: L_leg2
+    400022: PQ_body
+    400024: PQ_earphone
+    400026: PQ_face
+    400028: PQ_hair
+    400030: PQ_hair_top
+    400032: PQ_leg
+    400034: R_arm
+    400036: R_arm2
+    400038: R_foot
+    400040: R_hand
+    400042: R_leg
+    400044: R_leg2
+    400046: //RootNode
+    400048: SD_QUERY_04
+    400050: SD_QUERY_04_Reference
+    400052: upper
+    4300000: hat_fukuoka
+    4300002: PQ_face
+    4300004: PQ_earphone
+    4300006: PQ_hair_top
+    4300008: PQ_hair
+    4300010: PQ_body
+    4300012: PQ_leg
+    7400000: 0300_Def
+    7400002: 0301_Stand
+    7400004: 0302_Walk
+    7400006: 0303_Run
+    7400008: 0304_Idle
+    7400010: 0305_Fukuokadance1
+    7400012: 0306_Fukuokadance2
+    7400014: 0307_Waiwai
+    7400016: 0350_Pose_Fukuokapose1
+    7400018: 0351_Pose_Fukuokapose2
+    7400020: 0352_Pose_Hirune
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: hat_fukuoka
+    13700002: PQ_body
+    13700004: PQ_earphone
+    13700006: PQ_face
+    13700008: PQ_hair
+    13700010: PQ_hair_top
+    13700012: PQ_leg
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 0300_Def
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: .100000001
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SD_QUERY_04
+        weight: 1
+      - path: SD_QUERY_04/hat_fukuoka
+        weight: 1
+      - path: SD_QUERY_04/PQ_body
+        weight: 1
+      - path: SD_QUERY_04/PQ_earphone
+        weight: 1
+      - path: SD_QUERY_04/PQ_face
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair_top
+        weight: 1
+      - path: SD_QUERY_04/PQ_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference
+        weight: 1
+      - path: SD_QUERY_04_Reference/body
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2/L_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2/R_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head/ahoge
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2/L_hand
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2/R_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 0301_Stand
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1.10000002
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SD_QUERY_04
+        weight: 1
+      - path: SD_QUERY_04/hat_fukuoka
+        weight: 1
+      - path: SD_QUERY_04/PQ_body
+        weight: 1
+      - path: SD_QUERY_04/PQ_earphone
+        weight: 1
+      - path: SD_QUERY_04/PQ_face
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair_top
+        weight: 1
+      - path: SD_QUERY_04/PQ_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference
+        weight: 1
+      - path: SD_QUERY_04_Reference/body
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2/L_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2/R_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head/ahoge
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2/L_hand
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2/R_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 0302_Walk
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SD_QUERY_04
+        weight: 1
+      - path: SD_QUERY_04/hat_fukuoka
+        weight: 1
+      - path: SD_QUERY_04/PQ_body
+        weight: 1
+      - path: SD_QUERY_04/PQ_earphone
+        weight: 1
+      - path: SD_QUERY_04/PQ_face
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair_top
+        weight: 1
+      - path: SD_QUERY_04/PQ_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference
+        weight: 1
+      - path: SD_QUERY_04_Reference/body
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2/L_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2/R_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head/ahoge
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2/L_hand
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2/R_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 0303_Run
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SD_QUERY_04
+        weight: 1
+      - path: SD_QUERY_04/hat_fukuoka
+        weight: 1
+      - path: SD_QUERY_04/PQ_body
+        weight: 1
+      - path: SD_QUERY_04/PQ_earphone
+        weight: 1
+      - path: SD_QUERY_04/PQ_face
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair_top
+        weight: 1
+      - path: SD_QUERY_04/PQ_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference
+        weight: 1
+      - path: SD_QUERY_04_Reference/body
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2/L_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2/R_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head/ahoge
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2/L_hand
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2/R_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 0304_Idle
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SD_QUERY_04
+        weight: 1
+      - path: SD_QUERY_04/hat_fukuoka
+        weight: 1
+      - path: SD_QUERY_04/PQ_body
+        weight: 1
+      - path: SD_QUERY_04/PQ_earphone
+        weight: 1
+      - path: SD_QUERY_04/PQ_face
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair_top
+        weight: 1
+      - path: SD_QUERY_04/PQ_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference
+        weight: 1
+      - path: SD_QUERY_04_Reference/body
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2/L_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2/R_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head/ahoge
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2/L_hand
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2/R_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 0305_Fukuokadance1
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 319
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SD_QUERY_04
+        weight: 1
+      - path: SD_QUERY_04/hat_fukuoka
+        weight: 1
+      - path: SD_QUERY_04/PQ_body
+        weight: 1
+      - path: SD_QUERY_04/PQ_earphone
+        weight: 1
+      - path: SD_QUERY_04/PQ_face
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair_top
+        weight: 1
+      - path: SD_QUERY_04/PQ_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference
+        weight: 1
+      - path: SD_QUERY_04_Reference/body
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2/L_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2/R_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head/ahoge
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2/L_hand
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2/R_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 0306_Fukuokadance2
+      takeName: Take 001
+      firstFrame: 320
+      lastFrame: 439
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SD_QUERY_04
+        weight: 1
+      - path: SD_QUERY_04/hat_fukuoka
+        weight: 1
+      - path: SD_QUERY_04/PQ_body
+        weight: 1
+      - path: SD_QUERY_04/PQ_earphone
+        weight: 1
+      - path: SD_QUERY_04/PQ_face
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair_top
+        weight: 1
+      - path: SD_QUERY_04/PQ_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference
+        weight: 1
+      - path: SD_QUERY_04_Reference/body
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2/L_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2/R_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head/ahoge
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2/L_hand
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2/R_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 0307_Waiwai
+      takeName: Take 001
+      firstFrame: 500
+      lastFrame: 610
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SD_QUERY_04
+        weight: 1
+      - path: SD_QUERY_04/hat_fukuoka
+        weight: 1
+      - path: SD_QUERY_04/PQ_body
+        weight: 1
+      - path: SD_QUERY_04/PQ_earphone
+        weight: 1
+      - path: SD_QUERY_04/PQ_face
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair_top
+        weight: 1
+      - path: SD_QUERY_04/PQ_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference
+        weight: 1
+      - path: SD_QUERY_04_Reference/body
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2/L_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2/R_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head/ahoge
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2/L_hand
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2/R_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 0350_Pose_Fukuokapose1
+      takeName: Take 001
+      firstFrame: 650
+      lastFrame: 650.099976
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SD_QUERY_04
+        weight: 1
+      - path: SD_QUERY_04/hat_fukuoka
+        weight: 1
+      - path: SD_QUERY_04/PQ_body
+        weight: 1
+      - path: SD_QUERY_04/PQ_earphone
+        weight: 1
+      - path: SD_QUERY_04/PQ_face
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair_top
+        weight: 1
+      - path: SD_QUERY_04/PQ_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference
+        weight: 1
+      - path: SD_QUERY_04_Reference/body
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2/L_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2/R_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head/ahoge
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2/L_hand
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2/R_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 0351_Pose_Fukuokapose2
+      takeName: Take 001
+      firstFrame: 651
+      lastFrame: 651.099976
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SD_QUERY_04
+        weight: 1
+      - path: SD_QUERY_04/hat_fukuoka
+        weight: 1
+      - path: SD_QUERY_04/PQ_body
+        weight: 1
+      - path: SD_QUERY_04/PQ_earphone
+        weight: 1
+      - path: SD_QUERY_04/PQ_face
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair_top
+        weight: 1
+      - path: SD_QUERY_04/PQ_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference
+        weight: 1
+      - path: SD_QUERY_04_Reference/body
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2/L_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2/R_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head/ahoge
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2/L_hand
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2/R_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 0352_Pose_Hirune
+      takeName: Take 001
+      firstFrame: 652
+      lastFrame: 652.099976
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SD_QUERY_04
+        weight: 1
+      - path: SD_QUERY_04/hat_fukuoka
+        weight: 1
+      - path: SD_QUERY_04/PQ_body
+        weight: 1
+      - path: SD_QUERY_04/PQ_earphone
+        weight: 1
+      - path: SD_QUERY_04/PQ_face
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair
+        weight: 1
+      - path: SD_QUERY_04/PQ_hair_top
+        weight: 1
+      - path: SD_QUERY_04/PQ_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference
+        weight: 1
+      - path: SD_QUERY_04_Reference/body
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/L_leg/L_leg2/L_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/R_leg/R_leg2/R_foot
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/head/ahoge
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/L_arm/L_arm2/L_hand
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2
+        weight: 1
+      - path: SD_QUERY_04_Reference/body/upper/joint3/R_arm/R_arm2/R_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: body
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_leg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_leg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_leg2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_leg2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_arm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_arm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_arm2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_arm2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ahoge
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: SD_QUERY_04(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SD_QUERY_04
+      position: {x: -0, y: -.00333691016, z: -.0359273814}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hat_fukuoka
+      position: {x: -0, y: .817680836, z: .0118680317}
+      rotation: {x: -.200424209, y: 0, z: -0, w: .979709268}
+      scale: {x: 2.13676071, y: .309862375, z: 2.13676071}
+      transformModified: 1
+    - name: PQ_body
+      position: {x: -0, y: .00333691016, z: .0359273814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PQ_earphone
+      position: {x: -0, y: .00333691016, z: .0359273814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PQ_face
+      position: {x: -0, y: .00333691016, z: .0359273814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PQ_hair
+      position: {x: -0, y: .00333691016, z: .0359273814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PQ_hair_top
+      position: {x: -0, y: .00333691016, z: .0359273814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PQ_leg
+      position: {x: -0, y: .00333691016, z: .0359273814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SD_QUERY_04_Reference
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.00335624279, y: 0, z: -0, w: .999994397}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: body
+      position: {x: -.00137315679, y: .266983449, z: .000767189602}
+      rotation: {x: 0, y: -0, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: upper
+      position: {x: -.0398547351, y: 8.67361738e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint3
+      position: {x: -.0831255913, y: 1.85615409e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head
+      position: {x: -.0352999084, y: 7.97972782e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ahoge
+      position: {x: -.396269947, y: 8.84708973e-17, z: .0243651979}
+      rotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_arm
+      position: {x: .000220654649, y: -.0449277125, z: 0}
+      rotation: {x: 0, y: 0, z: .71344763, w: .700708568}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_arm2
+      position: {x: -.0734611079, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -.0215823222, w: .999767065}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_hand
+      position: {x: -.105244279, y: -8.88178433e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -.698158562, w: .715943217}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_arm
+      position: {x: .000882358931, y: .0470491908, z: 0}
+      rotation: {x: -.703825653, y: .710372746, z: -8.65946796e-17, w: -4.00893446e-19}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_arm2
+      position: {x: -.0714671314, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -.00462948065, w: .999989271}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_hand
+      position: {x: -.105210982, y: 8.8817842e-16, z: 0}
+      rotation: {x: .707106829, y: -.707106829, z: 8.65956127e-17, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_leg
+      position: {x: .0186583344, y: .0341592245, z: 0}
+      rotation: {x: 0, y: 0, z: .99983573, w: .0181258135}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_leg2
+      position: {x: -.120080903, y: 2.02615707e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -.0114243235, w: .999934733}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_foot
+      position: {x: -.105263256, y: 3.38618017e-16, z: 0}
+      rotation: {x: 0, y: 0, z: .999563396, w: -.0295470674}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_leg
+      position: {x: .0205236506, y: -.0342356972, z: 0}
+      rotation: {x: -.0234182309, y: .999725759, z: -6.26495015e-17, w: -5.97815936e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_leg2
+      position: {x: -.119511306, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: .00535590621, w: .999985695}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_foot
+      position: {x: -.10328155, y: -7.82707254e-16, z: -3.469447e-19}
+      rotation: {x: -.0180635061, y: .999836862, z: -6.23284231e-17, w: -6.01162775e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{90EB9F57-EFB9-12F6-37D3-D7DA697F10AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_1;UNITY_2017_3;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Dice\Plugins\Dice.cs" />
+     <Compile Include="Assets\Dice\Plugins\Die.cs" />
+     <Compile Include="Assets\Dice\scenes\Demo\AppDemo.cs" />
+     <Compile Include="Assets\Dice\Scripts\Dice\Die_d10.cs" />
+     <Compile Include="Assets\Dice\Scripts\Dice\Die_d6.cs" />
+     <Compile Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Scripts\DynamicShadowsCreator.cs" />
+     <Compile Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Scripts\FlyingCamera.cs" />
+     <Compile Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Scripts\GameCamera.cs" />
+     <Compile Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Scripts\InfoToShaders.cs" />
+     <Compile Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Scripts\Joystick.cs" />
+     <Compile Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Scripts\MainGUI.cs" />
+     <Compile Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Scripts\MoveChessPiece.cs" />
+     <Compile Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Scripts\ScreenResolution.cs" />
+     <Compile Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Scripts\SetShadows.cs" />
+     <Compile Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Scripts\UnifiedShaderControl.cs" />
+     <Compile Include="Assets\FastMobileBloom\FastMobileBloom.cs" />
+     <Compile Include="Assets\FullTiltBoogie\RotateFlareHolder.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\randomParticleRotation.cs" />
+     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\ReverseNormals.cs" />
+     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\rotation.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan-SD\Props\99_ShowTime\Scripts\DetectPanel.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan-SD\Props\99_ShowTime\Scripts\PanelPrefCollider.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\GUIController\CameraAction.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\GUIController\FaceToCamera.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\GUIController\GUIControllerSD.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\GUIController\RotateProp.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\GUIController\ShowTimeController.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDEmotionalController.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDMecanimController.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDSoundController.cs" />
+     <Compile Include="Assets\Scripts\Action.cs" />
+     <Compile Include="Assets\Scripts\AudioControl.cs" />
+     <Compile Include="Assets\Scripts\AutoMode.cs" />
+     <Compile Include="Assets\Scripts\BackToLobby.cs" />
+     <Compile Include="Assets\Scripts\ChangeCamera.cs" />
+     <Compile Include="Assets\Scripts\CharacterControl.cs" />
+     <Compile Include="Assets\Scripts\CharacterListener.cs" />
+     <Compile Include="Assets\Scripts\CharacterMovement.cs" />
+     <Compile Include="Assets\Scripts\CharacterSelect.cs" />
+     <Compile Include="Assets\Scripts\DiceButtonAudio.cs" />
+     <Compile Include="Assets\Scripts\DiceGirlMove.cs" />
+     <Compile Include="Assets\Scripts\ExitGame.cs" />
+     <Compile Include="Assets\Scripts\FairyAnime.cs" />
+     <Compile Include="Assets\Scripts\HomePage.cs" />
+     <Compile Include="Assets\Scripts\IconVisualEffect.cs" />
+     <Compile Include="Assets\Scripts\IntoTrueCorner_Left.cs" />
+     <Compile Include="Assets\Scripts\IntoTrueCorner_Right.cs" />
+     <Compile Include="Assets\Scripts\IntoVirtualCorner.cs" />
+     <Compile Include="Assets\Scripts\MoveUnityChan.cs" />
+     <Compile Include="Assets\Scripts\MyStatus.cs" />
+     <Compile Include="Assets\Scripts\RankList.cs" />
+     <Compile Include="Assets\Scripts\RoomListListen.cs" />
+     <Compile Include="Assets\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Scripts\Running.cs" />
+     <Compile Include="Assets\Scripts\ScreenPosition.cs" />
+     <Compile Include="Assets\Scripts\StarAnime.cs" />
+     <Compile Include="Assets\Scripts\Story.cs" />
+     <Compile Include="Assets\Scripts\VictoryEffects.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\SceneLoader.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\FastMobileBloom\readme.txt" />
+     <None Include="Assets\Resources\values\RelativeTransform.txt" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\PQAssets\Query-Chan-SD\license_jp.txt" />
+     <None Include="Assets\Dice\-Read-Me-.txt" />
+     <None Include="Assets\Particle Ribbon by Moonflower Carnivore\Shaders\Particle Alpha Blend HDR.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Shaders\ChessPiece.shader" />
+     <None Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Shaders\RoomShadows.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
+     <None Include="Assets\Optimize SDKohaku-Chanz\Readme_Optimize_SD Kohaku-Chanz.txt" />
+     <None Include="Assets\FastMobileBloom\FastMobileBloom.shader" />
+     <None Include="Assets\Optimize SDKohaku-Chanz\Shader\readme.txt" />
+     <None Include="Assets\FullTiltBoogie\Helpers\readme.txt" />
+     <None Include="Assets\UnityChan\license.txt" />
+     <None Include="Assets\PQAssets\Query-Chan-SD\Models\SD_QUERY_49_Ooita\Textures\_README.txt" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Shaders\ShadowMap.shader" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\fonts\artianniugbbd_test\Readme.txt" />
+     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\PQAssets\Query-Chan-SD\Models\SD_QUERY_12_Okayama\Unlit_double.shader" />
+     <None Include="Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\PQAssets\Query-Chan-SD\license_en.txt" />
+     <None Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\ARM_EULA.txt" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+     <None Include="Assets\PQAssets\Query-Chan-SD\Documents\ReadMe.txt" />
+     <None Include="Assets\Mask.shader" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\Particle Ribbon by Moonflower Carnivore\readme_Simple_Particle_Ribbon.txt" />
+     <None Include="Assets\Dynamic Soft Shadows Based on Local Cubemaps\Shaders\Common.cginc" />
+     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets">
+ <HintPath>E:/UnityProject/ChessTest3/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets_CartoonFXFreeWelcome">
+ <HintPath>E:/UnityProject/ChessTest3/Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/admin/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Users/admin/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/admin/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Users/admin/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/admin/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Users/admin/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/admin/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D9C4B246-6054-F8FC-AA48-922A83E9C7AF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
