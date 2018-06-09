@@ -1,6 +1,8 @@
 # Ludo-Dragon-Girls
-A mobile game (fantasy style) with a nice appearance [Unity module]/ 龙与少女飞行棋[Unity客户端]
+A mobile game (fantasy style) with a nice appearance [Unity module] / 龙与少女飞行棋[Unity客户端]
 ![预览图1](https://github.com/CMHowl/Ludo-Dragon-Girls/raw/master/Readme/title.png)
+
+APK (release_v1.0) 下载试玩（Password:123456）：[Download](https://www.pgyer.com/jHsT?sig=pb9OMLVww27f5gOUK0YRKrmY0CBK6cJL%2Fbaj6EgbqTz%2BTRDJX7qYC7%2BaP6LJsVDZ)
 
 ****************************************************************************
 【coming】 v1.1
@@ -24,5 +26,7 @@ v1.0
 友情链接：
 
 Android（带后台、Unity导出包、服务器jar包）：https://github.com/ChenJiaJian96/FlyChess-FINAL
+
 Unity：https://github.com/CMHowl/Ludo-Dragon-Girls
+
 抽象逻辑测试（安卓纯文字版）：https://github.com/AJJZDF/FlyChessModel
